@@ -108,7 +108,7 @@
 
 ***
 
-### Glide加载、解析图片
+### Glide加载、解析任务
 
 1、load()->生成EngineKey->查看内存中是否存在缓存->存在则调用Request中的onResourceReady()加载资源；不存在则发起网络任务
 
@@ -148,3 +148,8 @@ onResourceReady->DrawableImageViewTarget.setResource()->View.setImageDrawable(Dr
 
 ### Glide 缓存
 
+##### 内存缓存
+
+1、LruCache
+
+2、
